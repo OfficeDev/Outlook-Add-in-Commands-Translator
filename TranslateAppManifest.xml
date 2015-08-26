@@ -25,6 +25,7 @@
   <FormSettings>
     <Form xsi:type="ItemEdit">
       <DesktopSettings>
+        <SourceLocation DefaultValue="YOUR_WEB_SERVER/AppCompose/Home/Home.html"/>
       </DesktopSettings>
     </Form>
   </FormSettings>
@@ -77,6 +78,7 @@
         <bt:Image id="icon1_80x80" DefaultValue="https://ssl.microsofttranslator.com/static/222083/img/trans.png"/>
       </bt:Images>
       <bt:Urls>
+        <bt:Url id="functionFile" DefaultValue="YOUR_WEB_SERVER/AppCompose/FunctionFile/Home.html"/>
       </bt:Urls>
       <bt:ShortStrings>
         <bt:String id="groupLabel" DefaultValue="Translator"/>
@@ -91,4 +93,3 @@
     </Resources>
   </VersionOverrides>
 </OfficeApp>
-
