@@ -17,14 +17,9 @@ In order to run this sample, you will need the following:
 1. Open `TranslateHelper.js` in a text editor and replace the `YOUR API KEY HERE` value with your API key for the Yandex Translate API. Save your changes.
 1. Upload the `AppCompose`, `Content`, and `Images` directories to a directory on your web server.
 1. Open `TranslateAppManifest.xml` in a text editor. Replace all instances of `YOUR_WEB_SERVER` with the HTTPS URL of the directory where you uploaded the files in the previous step. Save your changes.
-1. Logon to your email account with a browser at either https://outlook.office365.com (for Office 365), or https://www.outlook.com (for Outlook.com).
-    - For Office 365 accounts, click on the gear icon in the upper-right corner, type `manage` in the search box, then click on **Manage apps**.
-      
-    ![The Manage apps menu item on https://outlook.office365.com](https://raw.githubusercontent.com/OfficeDev/Outlook-Add-in-Commands-Translator/master/readme-images/o365-manage-addins.PNG)
-   
-    - For Outlook.com accounts, click on the gear icon in the upper-right corner, then click **Manage add-ins**.
+1. Logon to your email account with a browser at either https://outlook.office365.com (for Office 365), or https://www.outlook.com (for Outlook.com). Click on the gear icon in the upper-right corner, then click **Manage add-ins**.
     
-    ![The Manage add-ins menu item on https://www.outlook.com](https://raw.githubusercontent.com/OfficeDev/Outlook-Add-in-Commands-Translator/master/readme-images/outlook-manage-addins.PNG)
+  ![The Manage add-ins menu item on https://www.outlook.com](https://raw.githubusercontent.com/OfficeDev/Outlook-Add-in-Commands-Translator/master/readme-images/outlook-manage-addins.PNG)
     
 1. In the add-in list, click the **+** icon and choose **Add from a file**.
 
