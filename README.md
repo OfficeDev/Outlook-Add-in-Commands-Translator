@@ -19,13 +19,20 @@ In order to run this sample, you will need the following:
 1. Open `TranslateAppManifest.xml` in a text editor. Replace all instances of `YOUR_WEB_SERVER` with the HTTPS URL of the directory where you uploaded the files in the previous step. Save your changes.
 1. Logon to your email account with a browser at either https://outlook.office365.com (for Office 365), or https://www.outlook.com (for Outlook.com).
     - For Office 365 accounts, click on the gear icon in the upper-right corner, type `manage` in the search box, then click on **Manage apps**.
+      
    ![The Manage apps menu item on https://outlook.office365.com](https://raw.githubusercontent.com/OfficeDev/Outlook-Add-in-Commands-Translator/master/readme-images/o365-manage-addins.PNG)
+   
     - For Outlook.com accounts, click on the gear icon in the upper-right corner, then click **Manage add-ins**.
+    
     ![The Manage add-ins menu item on https://www.outlook.com](https://raw.githubusercontent.com/OfficeDev/Outlook-Add-in-Commands-Translator/master/readme-images/outlook-manage-addins.PNG)
 1. In the add-in list, click the **+** icon and choose **Add from a file**.
+
 ![The Add from file menu item in the add-in list](https://raw.githubusercontent.com/OfficeDev/Outlook-Add-in-Commands-Translator/master/readme-images/addin-list.PNG)
+
 1. Click **Browse** and browse to the `TranslateAppManifest.xml` file on your development machine. Click **Next**.
+
 ![The Add add-in from a file dialog](https://raw.githubusercontent.com/OfficeDev/Outlook-Add-in-Commands-Translator/master/readme-images/browse-manifest.PNG)
+
 1. On the confirmation screen, you will see a warning that the add-in is not from the Office Store and hasn't been verified by Microsoft. Click **Install**.
 1. You should see a success message: **You've added an add-in for Outlook**. Click OK.
 
@@ -33,10 +40,15 @@ In order to run this sample, you will need the following:
 
 1. Open Outlook 2016 and connect to the email account where you installed the add-in.
 1. Create a new email. Notice that the add-in has placed a **Translate** button on the command ribbon.
+
 ![The Translate button on a new mail form in Outlook](https://raw.githubusercontent.com/OfficeDev/Outlook-Add-in-Commands-Translator/master/readme-images/new-mail.PNG)
+
 1. Type some English text into the body. Select the text, then click **Translate**.
+
 ![The new mail form with English text selected in the body](https://raw.githubusercontent.com/OfficeDev/Outlook-Add-in-Commands-Translator/master/readme-images/text-selected.PNG)
+
 1. After a moment, the selected text will be replaced with the Russian translation, and you should see the message **Translated successfully** in the information bar.
+
 ![The text translated into Russian by the add-in](https://raw.githubusercontent.com/OfficeDev/Outlook-Add-in-Commands-Translator/master/readme-images/text-translated.PNG)
 
 ## Key components of the sample
@@ -51,6 +63,8 @@ In order to run this sample, you will need the following:
 ## How's it all work?
 
 The key part of the sample is the structure of the manifest file. The manifest uses the same version 1.1 schema as any Office add-in's manifest. However, there is a new section of the manifest called `VersionOverrides`. This section holds all of the information that clients that support add-in commands (currently only Outlook 2016) need to invoke the add-in from a ribbon button. By putting this in a completely separate section, the manifest can also include the original markup to enable the add-in to be loaded in a task pane under the original compose mode add-in model. You can see this in action by loading the add-in in Outlook 2013 or Outlook on the web.
+
+### The Translator add-in loaded in Outlook on the web ###
 
 ![The Translator add-in loaded in Outlook on the web](https://raw.githubusercontent.com/OfficeDev/Outlook-Add-in-Commands-Translator/master/readme-images/outlook-on-web.PNG)
 
