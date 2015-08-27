@@ -68,25 +68,35 @@ Within the `VersionOverrides` element, there are two child elements, `Resources`
 
 In this sample, there is only one host specified (Outlook):
 
-    <Host xsi:type="MailHost">
+```xml
+<Host xsi:type="MailHost">
+```
     
 Within this element are the configuration specifics for the desktop version of Outlook:
 
-    <DesktopFormFactor>
+```xml
+<DesktopFormFactor>
+```
     
 The URL to the HTML file with all of the JavaScript code for the button is specified in the `FunctionFile` element (note that it uses the resource ID specified in the `Resources` element):
 
-    <FunctionFile resid="functionFile" />
+```xml
+<FunctionFile resid="functionFile" />
+```
     
 The manifest also limits activation to the new message form by setting a single extension point:
 
-    <ExtensionPoint xsi:type="MessageComposeCommandSurface">
+```xml
+<ExtensionPoint xsi:type="MessageComposeCommandSurface">
+```
     
 The properties of the button are specified in the `Control` element. Most importantly, the button's click event is connected to the `translate` function in `Translator.js` inside the `Action` element:
 
-    <Action xsi:type="ExecuteFunction">
-      <FunctionName>translate</FunctionName>
-    </Action>
+```xml
+<Action xsi:type="ExecuteFunction">
+    <FunctionName>translate</FunctionName>
+</Action>
+```
     
 ## Questions and comments
 
