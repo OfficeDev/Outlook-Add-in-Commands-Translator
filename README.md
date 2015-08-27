@@ -49,12 +49,12 @@ In order to run this sample, you will need the following:
 
 ## Key components of the sample
 
-- `TranslateAppManifest.xml`: The manifest file for the Translator add-in.
-- `AppCompose/FunctionFile/Home.html`: An empty HTML file to load `Translator.js` for clients that support add-in commands.
-- `AppCompose/FunctionFile/Translator.js`: The code that is invoked when the add-in command button is clicked.
-- `AppCompose/Home/Home.html`: The HTML file that is loaded and displayed by clients that do not support add-in commands.
-- `AppCompose/Home/Home.js`: The code that is invoked by clients that do not support add-in commands.
-- `TranslateHelper.js`: Common code used by both `Translator.js` and `Home.js`.
+- [```TranslateAppManifest.xml```](TranslateAppManifest.xml): The manifest file for the Translator add-in.
+- [```AppCompose/FunctionFile/Home.html```](AppCompose/FunctionFile/Home.html): An empty HTML file to load `Translator.js` for clients that support add-in commands.
+- [```AppCompose/FunctionFile/Translator.js```](AppCompose/FunctionFile/Translator.js): The code that is invoked when the add-in command button is clicked.
+- [```AppCompose/Home/Home.html```](AppCompose/Home/Home.html): The HTML file that is loaded and displayed by clients that do not support add-in commands.
+- [```AppCompose/Home/Home.js```](AppCompose/Home/Home.js): The code that is invoked by clients that do not support add-in commands.
+- [```AppCompose/TranslateHelper.js```](AppCompose/TranslateHelper.js): Common code used by both `Translator.js` and `Home.js`.
 
 ## How's it all work?
 
