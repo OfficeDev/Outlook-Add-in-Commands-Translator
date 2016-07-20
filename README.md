@@ -7,7 +7,7 @@ The Translator add-in uses the commands model for Outlook add-ins to add a butto
 In order to run this sample, you will need the following:
 
 - A web server to host the sample files. The server must be able to accept SSL-protected requests (https) and have a valid SSL certificate.
-- An Office 365 email account **or** an Outlook.com email account.
+- An Office 365 email account **or** an Outlook.com email account. You can [join the Office 365 Developer Program and get a free 1 year subscription to Office 365](https://aka.ms/devprogramsignup).
 - An API key for the [Yandex Translate API](https://translate.yandex.com/developers).
 - Outlook 2016, which is part of the [Office 2016 Preview](https://products.office.com/en-us/office-2016-preview).
 
