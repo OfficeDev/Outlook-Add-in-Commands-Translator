@@ -1,0 +1,19 @@
+### YamlMime:Sample
+sample:
+- name: Outlook-Add-in-Commands-Translator
+  path: ''
+  description: The Translator add-in uses the commands model for Outlook add-ins to add a button to the ribbon in the new message form. The button sends the selected text from the message body to a translator web service to translate from English to Russian.
+  readme: ''
+  generateZip: FALSE
+  isLive: TRUE
+  technologies:
+  - Office Add-in
+  azureDeploy: ''
+  author: jamescro
+  platforms: []
+  languages:
+  - JavaScript
+  extensions:
+    products:
+    - Outlook
+    scenarios: []
