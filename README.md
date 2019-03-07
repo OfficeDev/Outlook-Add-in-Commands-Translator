@@ -1,3 +1,16 @@
+---
+topic: sample
+products:
+- Outlook
+- Office 365
+languages:
+- JavaScript
+extensions:
+  contentType: samples
+  technologies:
+  - Add-ins
+  createdDate: 8/21/2015 10:55:59 AM
+---
 # Outlook-Add-in-Commands-Translator
 
 The Translator add-in uses the commands model for Outlook add-ins to add a button to the ribbon in the new message form. The button sends the selected text from the message body to a translator web service to translate from English to Russian.
